@@ -3,9 +3,9 @@ import numpy as np
 import json
 
 BASED_URL = {
-    "clement" : "http://localhost:5000",
-    "raph" : "http://localhost:5000",
-    "diane" : "http://localhost:5000",
+    "clement" : "https://7965-89-30-29-68.ngrok-free.app",
+    "raph" : "https://0a3d-89-30-29-68.ngrok-free.app",
+    "diane" : "https://4471-89-30-29-68.ngrok-free.app",
 }
 
 model_weights = {model:1 for model in BASED_URL}
